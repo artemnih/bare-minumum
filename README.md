@@ -4,23 +4,20 @@ This project was generated with [lsc](https://github.com/labshare/lsc).
 
 ## Development server
 
-Run `lsc start site` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you
-change any of the source files.
+Run `lsc start site` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Electron app
 
-Run `lsc start electron` to create an electron app. For more information check
-[Shell CLI README](https://github.com/angular/shell-ui/blob/master/README.md).
+Run `lsc start electron` to create an electron app. For more information check [Shell CLI README](https://github.com/angular/shell-ui/blob/master/README.md).
 
 ## Build
 
-Run `lsc build site` to build the project. The build artifacts will be stored in the `dist/` directory. For more
-information check [Shell CLI README](https://github.com/angular/shell-ui/blob/master/README.md).
+Run `lsc build site` to build the project. The build artifacts will be stored in the `dist/` directory. For more information check
+[Shell CLI README](https://github.com/angular/shell-ui/blob/master/README.md).
 
 ## Build Electron Package
 
-Run `lsc build electron --platform={mac|windows|linux}` to build the project. The build artifacts will be stored in the
-`dist/` directory. For more information check
+Run `lsc build electron --platform={mac|windows|linux}` to build the project. The build artifacts will be stored in the `dist/` directory. For more information check
 [Shell CLI README](https://github.com/angular/shell-ui/blob/master/README.md).
 
 ## SharePoint app
@@ -40,8 +37,7 @@ Run `lsc start cordova --platform={ios|android|browser}` to start the generated 
 
 ## Angular Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use
-`ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Running unit tests
 
@@ -53,19 +49,16 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Env Vars
 
-For adding env vars , you can use the .env file. For more information check
-[Shell CLI README](https://github.com/angular/shell-ui/blob/master/README.md)..
+For adding env vars , you can use the .env file. For more information check [Shell CLI README](https://github.com/angular/shell-ui/blob/master/README.md)..
 
 ## Further help
 
-To get more help on the shell-ui and lsc CLI go check out the
-[Shell CLI README](https://github.com/angular/shell-ui/blob/master/README.md).
+To get more help on the shell-ui and lsc CLI go check out the [Shell CLI README](https://github.com/angular/shell-ui/blob/master/README.md).
 [LSC CLI README](https://github.com/angular/lsc/blob/master/README.md).
 
 ## Cypress Configuration
 
-- `NPM_TOKEN`: An npm install token with access to the organization private repos. To improve security, it's preferred
-  to use tokens with `--read-only` permissions.
+- `NPM_TOKEN`: An npm install token with access to the organization private repos. To improve security, it's preferred to use tokens with `--read-only` permissions.
 - `AWS_ACCESS_TOKEN`: An access token to AWS S3 Buckets service
 - `PROJECT_ID`: Your project's name in **slug-case**
 - `AWS_BUCKET_NAME`: Bucket to which Cypress videos will be uploaded to

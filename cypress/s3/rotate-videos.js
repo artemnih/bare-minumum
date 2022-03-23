@@ -1,15 +1,15 @@
 /* Configuration */
-const {BUCKET_NAME, REGION, LIMIT} = require('./config');
+const { BUCKET_NAME, REGION, LIMIT } = require('./config');
 
 /* Import AWS SDK */
 const AWS = require('@aws-sdk/client-s3');
-const {log} = console;
+const { log } = console;
 
 /* Create a S3 client service object */
 const s3 = new AWS.S3({
   region: REGION
 });
-const bucketParams = {Bucket: BUCKET_NAME};
+const bucketParams = { Bucket: BUCKET_NAME };
 
 /* Helper functions */
 const mapToKey = p => arr => arr.map(i => i[p]);

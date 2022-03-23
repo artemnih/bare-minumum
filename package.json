@@ -6,7 +6,6 @@
     "ng": "ng",
     "start": "lsc start site",
     "build": "lsc build site",
-    "build:lib": "ng build shell-app-lib",
     "test": "ng test",
     "test:ci": "ng test --watch=false --browsers=ChromeHeadless",
     "e2e": "ng e2e",
@@ -99,17 +98,5 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
-  },
-  "optionalDependencies": {
-    "cypress": "^6.8.0"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{ts,js,css,md,html}": "npm run lint:fix"
   }
 }
